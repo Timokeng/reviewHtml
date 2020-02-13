@@ -1,0 +1,65 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: burlywood;
+    height: 100%;
+}
+
+.parent {
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.father {
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid1 {
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.mid2 {
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -50px 0 0 -50px;
+}
+
+.mid3 {
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mid4 {
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+}
