@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+}
+.parent {
+    width: auto;
+    border: 3px solid red;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.child {
+    height: 100px;
+    width: 100px;
+    float: left;
+    background-color: blue;
+}
+
+.type1 {
+    height: 100px;
+}
+
+.type2 {
+    clear: both;
+}
+
+.type3 {
+    overflow: hidden;
+}
+
+.type4 {
+    zoom: 1;
+}
+.type4::after {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    content: '';
+}
