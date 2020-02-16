@@ -1,0 +1,18 @@
+var str = "Hello World";
+var str1 = "  Let's do something  ";
+console.log(str.length);
+console.log(str.indexOf("o", 5));
+console.log(str.search("ll"));
+console.log(str.slice(-4, -1));
+console.log(str.substring(0, 5));
+console.log(str.substr(0,7));
+console.log(str.toUpperCase(), str);
+console.log(str.toLowerCase(), str);
+console.log(str1.length, str1.trim().length);
+console.log(str.charAt(0));
+str.replace("World", "MrJ");
+str1 = str1.trim();
+var str2 = str.concat(" ",str1);
+console.log(str2);
+var arr = str2.split(" ");
+console.log(arr);
