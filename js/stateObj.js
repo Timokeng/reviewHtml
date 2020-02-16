@@ -56,3 +56,7 @@ function createObj4(str1, str2) {
 
 var d = createObj4("K", "Woooooooooo");
 console.log(d.sayIt());
+
+function sayAgain() {
+    console.log(d.sayIt());
+}
