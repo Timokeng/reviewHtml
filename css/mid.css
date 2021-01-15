@@ -1,65 +1,57 @@
-html {
-    height: 100%;
-}
-
 body {
     background-color: burlywood;
-    height: 100%;
 }
 
 .parent {
     height: 400px;
     width: 400px;
-    background-color: red;
-    position: relative;
+    background-color: crimson;
     display: inline-block;
     margin: 10px;
+    position: relative;
 }
 
-.father {
+.flexbox {
     height: 400px;
     width: 400px;
-    background-color: red;
+    background-color: crimson;
     margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.mid1 {
+.parent div {
     height: 100px;
     width: 100px;
-    background-color: chartreuse;
+    background-color: cyan;
+}
+
+.mid1 {
     margin: auto;
     position: absolute;
+    top: 0;
     left: 0;
     right: 0;
-    top: 0;
     bottom: 0;
 }
 
 .mid2 {
-    height: 100px;
-    width: 100px;
-    background-color: chartreuse;
-    position: absolute;
     left: 50%;
     top: 50%;
     margin: -50px 0 0 -50px;
+    position: absolute;
 }
 
 .mid3 {
-    height: 100px;
-    width: 100px;
-    background-color: chartreuse;
-    position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    position: absolute;
 }
 
 .mid4 {
     height: 100px;
     width: 100px;
-    background-color: chartreuse;
+    background-color: cyan;
 }
