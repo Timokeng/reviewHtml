@@ -5,31 +5,21 @@ body {
 .parent {
     height: 400px;
     width: 400px;
-    background-color: crimson;
     display: inline-block;
+    background-color: coral;
     margin: 10px;
     position: relative;
-}
-
-.flexbox {
-    height: 400px;
-    width: 400px;
-    background-color: crimson;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .parent div {
     height: 100px;
     width: 100px;
-    background-color: cyan;
+    background-color: crimson;
 }
 
 .mid1 {
-    margin: auto;
     position: absolute;
+    margin: auto;
     top: 0;
     left: 0;
     right: 0;
@@ -37,21 +27,15 @@ body {
 }
 
 .mid2 {
-    left: 50%;
-    top: 50%;
-    margin: -50px 0 0 -50px;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -50px;
 }
 
 .mid3 {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     position: absolute;
-}
-
-.mid4 {
-    height: 100px;
-    width: 100px;
-    background-color: cyan;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
