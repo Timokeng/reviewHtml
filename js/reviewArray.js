@@ -1,25 +1,24 @@
-var arr = ['Lee', 'K', 'Cheng', 'J'];
-var str = arr.join(',');
-console.log(str);
+var arr = ["A","S","D","F","G"];
+var str = arr.join(",");
+console.log(str)
 
 arr.pop();
 console.log(arr);
 
-arr.push('W');
+arr.push("Q");
 console.log(arr);
 
 arr.shift();
 console.log(arr);
 
-arr.unshift('Q');
+arr.unshift("W");
 console.log(arr);
 
-delete arr[0];
+arr.splice(1,1,"E");
 console.log(arr);
 
-arr.splice(0, 1, 'Tony', 'Tom');
-console.log(arr);
-
-console.log(arr.concat(arr));
 console.log(arr.slice(0, 3));
-console.log(arr.toString());
+console.log(arr);
+
+arr.reverse();
+console.log(arr);
